@@ -1,5 +1,3 @@
-# SC-SPWeapons
-Adds SP focused weapons to SC.
+# Severed Chains Devkit
 
-Huge shout-out to Monoxide for all the help in getting this off the ground
-Huge Shoutout to Icarus for having code to reference for the weapon registry
+A basic example mod to get you started. More to come later.

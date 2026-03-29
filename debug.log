@@ -1,0 +1,397 @@
+2026-03-29 10:17:39.000 [main legend.game.Main:47] INFO : Initialising LWJGL version 3.4.1+2
+2026-03-29 10:17:39.101 [main legend.core.font.FontManager:29] INFO : Loading font gfx\fonts\default.json
+2026-03-29 10:17:39.436 [Hardware legend.core.Updater:65] INFO : Custom build, skipping update check
+2026-03-29 10:17:40.053 [Hardware legend.core.platform.SdlPlatformManager:200] INFO : Loading gamepads...
+2026-03-29 10:17:40.066 [Hardware legend.core.platform.SdlPlatformManager:216] INFO : Found gamepad XInput Controller
+2026-03-29 10:17:40.071 [Hardware org.legendofdragoon.modloader.ModManager:94] INFO : Scanning for mods...
+2026-03-29 10:17:40.071 [Thread-1 legend.core.GameEngine:193] INFO : Severed Chains 3.0.0-SNAPSHOT-CHANNEL commit COMMIT built null starting
+2026-03-29 10:17:40.089 [Thread-1 legend.game.unpacker.Unpacker:395] INFO : Found disk 1: isos\Legend of Dragoon, The (Disc 1).iso
+2026-03-29 10:17:40.090 [Thread-1 legend.game.unpacker.Unpacker:395] INFO : Found disk 2: isos\Legend of Dragoon, The (Disc 2).iso
+2026-03-29 10:17:40.090 [Thread-1 legend.game.unpacker.Unpacker:395] INFO : Found disk 3: isos\Legend of Dragoon, The (Disc 3).iso
+2026-03-29 10:17:40.091 [Thread-1 legend.game.unpacker.Unpacker:395] INFO : Found disk 4: isos\Legend of Dragoon, The (Disc 4).iso
+2026-03-29 10:17:40.092 [Thread-1 legend.game.unpacker.Unpacker:204] INFO : Populating initial file tree...
+2026-03-29 10:17:40.096 [Thread-1 legend.game.unpacker.Unpacker:210] INFO : Initial file tree populated in 0.003424s with 0 files
+2026-03-29 10:17:40.096 [Thread-1 legend.game.unpacker.Unpacker:315] INFO : Files unpacked in 0.005347s
+2026-03-29 10:17:40.126 [Thread-1 legend.game.unpacker.scripts.ScriptPatcher:154] INFO : Applying script patches
+2026-03-29 10:17:40.277 [Hardware org.legendofdragoon.modloader.ModManager:139] INFO : Found mod: turn_order
+2026-03-29 10:17:40.280 [Hardware org.legendofdragoon.modloader.ModManager:139] INFO : Found mod: lod
+2026-03-29 10:17:40.280 [Hardware org.legendofdragoon.modloader.ModManager:139] INFO : Found mod: spweapons
+2026-03-29 10:17:40.280 [Hardware org.legendofdragoon.modloader.ModManager:139] INFO : Found mod: lod_core
+2026-03-29 10:17:40.281 [Hardware legend.core.GameEngine:291] INFO : Booting mods...
+2026-03-29 10:17:40.283 [Hardware legend.core.GameEngine:299] INFO : Loading mods [lod, turn_order, spweapons, lod_core]...
+2026-03-29 10:17:40.305 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: lod
+2026-03-29 10:17:40.312 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: turn_order
+2026-03-29 10:17:40.313 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: spweapons
+2026-03-29 10:17:40.356 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: lod_core
+2026-03-29 10:17:40.366 [Hardware org.legendofdragoon.modloader.events.EventManager:42] INFO : Scanning for event consumers...
+2026-03-29 10:17:40.524 [Hardware legend.game.saves.ConfigStorage:29] INFO : Loading config GLOBAL from config.dcnf
+2026-03-29 10:17:40.526 [Hardware legend.core.font.FontManager:29] INFO : Loading font gfx\fonts\smooth.json
+2026-03-29 10:17:40.986 [Hardware legend.core.platform.SdlWindow:234] INFO : Centering window (window [960, 720], display [0, 0, 3840, 2160])
+2026-03-29 10:17:41.035 [Hardware legend.core.RenderEngine:482] INFO : OpenGL version: 3.3.0 NVIDIA 581.95
+2026-03-29 10:17:41.035 [Hardware legend.core.RenderEngine:483] INFO : GLSL version: 3.30 NVIDIA via Cg compiler
+2026-03-29 10:17:41.036 [Hardware legend.core.RenderEngine:484] INFO : Device manufacturer: NVIDIA Corporation
+2026-03-29 10:17:41.040 [Hardware legend.core.opengl.Shader:71] INFO : Compiling shader vs[gfx\shaders\simple.vsh] fs[gfx\shaders\simple.fsh]
+2026-03-29 10:17:41.062 [Hardware legend.core.opengl.Shader:71] INFO : Compiling shader vs[gfx\shaders\copy.vsh] fs[gfx\shaders\copy.fsh]
+2026-03-29 10:17:41.063 [Hardware legend.core.opengl.Shader:71] INFO : Compiling shader vs[gfx\shaders\post.vsh] fs[gfx\shaders\screen.fsh]
+2026-03-29 10:17:41.065 [Hardware legend.core.opengl.Shader:71] INFO : Compiling shader vs[gfx\shaders\standard.vsh] fs[gfx\shaders\standard.fsh]
+2026-03-29 10:17:41.069 [Hardware legend.core.opengl.Shader:80] INFO : Compiling shader vs[gfx\shaders\tmd.vsh] gs[gfx\shaders\tmd.gsh] fs[gfx\shaders\tmd.fsh]
+2026-03-29 10:17:41.072 [Hardware legend.core.opengl.Shader:80] INFO : Compiling shader vs[gfx\shaders\battle_tmd.vsh] gs[gfx\shaders\tmd.gsh] fs[gfx\shaders\battle_tmd.fsh]
+2026-03-29 10:17:41.107 [Hardware legend.core.RenderEngine:1193] INFO : Resizing window to 960x720
+2026-03-29 10:17:41.156 [Hardware legend.core.platform.SdlPlatformManager:476] INFO : Gamepad XInput Controller connected
+2026-03-29 10:17:42.706 [Hardware legend.core.spu.Spu:457] INFO : Unmuting SPU
+2026-03-29 10:17:42.706 [Hardware legend.core.spu.Spu:373] INFO : Setting SPU main volume to 0000, 0000
+2026-03-29 10:17:42.707 [Hardware legend.core.spu.Spu:465] INFO : Enabling SPU reverb
+2026-03-29 10:17:42.707 [Hardware legend.core.spu.Spu:394] INFO : Setting SPU reverb volume to 3000, 3000
+2026-03-29 10:17:42.709 [Hardware legend.game.unpacker.Loader:41] INFO : Loading file .\files\font.tim
+2026-03-29 10:17:42.711 [Hardware legend.game.unpacker.Loader:41] INFO : Loading file .\files\shadow.tim
+2026-03-29 10:17:42.711 [Hardware legend.game.unpacker.Loader:41] INFO : Loading file .\files\shadow.ctmd
+2026-03-29 10:17:42.716 [Hardware legend.game.unpacker.Loader:41] INFO : Loading file .\files\shadow.anim
+2026-03-29 10:17:42.717 [Hardware legend.game.Models:69] INFO : Loading scripted TMD legend.game.types.CContainer@53eba4b8 (animation legend.game.types.TmdAnimationFile@437bd805)
+2026-03-29 10:17:42.720 [Hardware legend.game.DrgnFiles:51] INFO : Loading DRGN0 5739/0, 5739/1, 5739/2, 5739/3 from legend.game.sound.Audio.loadMenuSounds(Audio.java:681)
+2026-03-29 10:17:42.721 [Hardware legend.game.unpacker.Loader:78] INFO : Queueing files [SECT/DRGN0.BIN/5739/0, SECT/DRGN0.BIN/5739/1, SECT/DRGN0.BIN/5739/2, SECT/DRGN0.BIN/5739/3] (total queued: 4)
+2026-03-29 10:17:42.722 [Hardware legend.game.Graphics:156] INFO : Changing resolution to (320, 240) from legend.game.Scus94491BpeSegment.preload(Scus94491BpeSegment.java:615)
+2026-03-29 10:17:42.722 [pool-2-thread-2 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5739\0
+2026-03-29 10:17:42.722 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 6669 from legend.game.Scus94491BpeSegment.loadBasicUiTexturesAndSomethingElse(Scus94491BpeSegment.java:543)
+2026-03-29 10:17:42.723 [pool-2-thread-2 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5739\1
+2026-03-29 10:17:42.723 [pool-2-thread-2 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5739\2
+2026-03-29 10:17:42.723 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/6669 (total queued: 5)
+2026-03-29 10:17:42.723 [pool-2-thread-2 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5739\3
+2026-03-29 10:17:42.724 [pool-2-thread-3 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\6669
+2026-03-29 10:17:42.725 [pool-2-thread-2 legend.game.unpacker.Loader:89] INFO : Files [SECT/DRGN0.BIN/5739/0, SECT/DRGN0.BIN/5739/1, SECT/DRGN0.BIN/5739/2, SECT/DRGN0.BIN/5739/3] loaded (remaining queued: 1)
+2026-03-29 10:17:42.732 [pool-2-thread-3 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/6669 loaded (remaining queued: 0)
+2026-03-29 10:17:42.873 [Hardware legend.game.DrgnFiles:86] INFO : Loading DRGN0 6665 from legend.game.DrgnFiles.loadDrgnFileSync(DrgnFiles.java:66)
+2026-03-29 10:17:42.874 [Hardware legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\6665
+2026-03-29 10:17:42.877 [Hardware legend.game.DrgnFiles:86] INFO : Loading DRGN0 6666 from legend.game.DrgnFiles.loadDrgnFileSync(DrgnFiles.java:66)
+2026-03-29 10:17:42.877 [Hardware legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\6666
+2026-03-29 10:17:42.883 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5815 from legend.game.SItem.loadMenuAssets(SItem.java:711)
+2026-03-29 10:17:42.884 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5815 (total queued: 1)
+2026-03-29 10:17:42.884 [pool-2-thread-4 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5815
+2026-03-29 10:17:42.886 [pool-2-thread-4 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5816
+2026-03-29 10:17:42.887 [pool-2-thread-4 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5817
+2026-03-29 10:17:42.894 [pool-2-thread-4 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5815 loaded (remaining queued: 0)
+2026-03-29 10:17:42.900 [Hardware legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5721\0
+2026-03-29 10:17:42.900 [Hardware legend.game.fmv.Fmv:309] INFO : Playing FMV STR/DEMOH.IKI
+2026-03-29 10:17:42.901 [Hardware legend.game.unpacker.Loader:41] INFO : Loading file .\files\STR\DEMOH.IKI
+2026-03-29 10:17:42.919 [Hardware legend.core.RenderEngine:1193] INFO : Resizing window to 960x720
+2026-03-29 10:17:43.673 [Hardware legend.core.RenderEngine:1193] INFO : Resizing window to 960x720
+2026-03-29 10:17:43.742 [Hardware legend.core.RenderEngine:1193] INFO : Resizing window to 960x720
+2026-03-29 10:17:43.744 [Hardware legend.game.EngineStates:68] INFO : Transitioning to engine state EngineStateType lod_core:title
+2026-03-29 10:17:43.745 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: UI d2d8
+2026-03-29 10:17:43.745 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: UI Portraits
+2026-03-29 10:17:43.746 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: UI Item Icons
+2026-03-29 10:17:43.746 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: UI Elements
+2026-03-29 10:17:43.748 [Hardware legend.core.spu.Spu:373] INFO : Setting SPU main volume to 3f80, 3f80
+2026-03-29 10:17:43.748 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5820 from legend.game.sound.Audio.loadMusicPackage(Audio.java:735)
+2026-03-29 10:17:43.748 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5820 (total queued: 1)
+2026-03-29 10:17:43.749 [pool-2-thread-5 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5820
+2026-03-29 10:17:43.750 [pool-2-thread-5 legend.game.sound.Audio:557] INFO : Music package 5820 loaded
+2026-03-29 10:17:43.752 [pool-2-thread-5 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5820 loaded (remaining queued: 0)
+2026-03-29 10:17:43.771 [Hardware legend.game.Graphics:156] INFO : Changing resolution to (384, 240) from legend.game.title.Ttle.initializeMainMenu(Ttle.java:271)
+2026-03-29 10:17:43.772 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5718 from legend.game.title.Ttle.initializeMainMenu(Ttle.java:281)
+2026-03-29 10:17:43.772 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5718 (total queued: 1)
+2026-03-29 10:17:43.773 [Hardware legend.game.DrgnFiles:75] INFO : Loading DRGN0 5719 from legend.game.DrgnFiles.loadDrgnFile(DrgnFiles.java:62)
+2026-03-29 10:17:43.773 [pool-2-thread-6 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5718
+2026-03-29 10:17:43.773 [Hardware legend.game.unpacker.Loader:68] INFO : Queueing file SECT/DRGN0.BIN/5719 (total queued: 2)
+2026-03-29 10:17:43.774 [pool-2-thread-7 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5719
+2026-03-29 10:17:43.776 [pool-2-thread-7 legend.game.unpacker.Loader:72] INFO : File SECT/DRGN0.BIN/5719 loaded (remaining queued: 1)
+2026-03-29 10:17:43.781 [pool-2-thread-6 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5718 loaded (remaining queued: 0)
+2026-03-29 10:17:43.783 [Hardware legend.core.RenderEngine:1193] INFO : Resizing window to 960x720
+2026-03-29 10:17:45.293 [pool-2-thread-9 legend.game.saves.ConfigStorage:29] INFO : Loading config CAMPAIGN from saves\dlv_50_dart\campaign_config.dcnf
+2026-03-29 10:17:45.319 [pool-2-thread-9 legend.game.saves.ConfigStorage:29] INFO : Loading config CAMPAIGN from saves\expanded_goons\campaign_config.dcnf
+2026-03-29 10:17:46.657 [Hardware legend.core.GameEngine:291] INFO : Booting mods...
+2026-03-29 10:17:46.658 [Hardware legend.core.GameEngine:299] INFO : Loading mods [spweapons, lod, SPWeapons, lod_core, turn_order]...
+2026-03-29 10:17:46.658 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: lod
+2026-03-29 10:17:46.659 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: turn_order
+2026-03-29 10:17:46.659 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: spweapons
+2026-03-29 10:17:46.659 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: lod_core
+2026-03-29 10:17:46.663 [Hardware org.legendofdragoon.modloader.events.EventManager:42] INFO : Scanning for event consumers...
+2026-03-29 10:17:49.722 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 3
+2026-03-29 10:17:49.723 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod:general_open_inventory
+2026-03-29 10:17:49.724 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod:bttl_additions
+2026-03-29 10:17:49.724 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod_core:menu_sort
+2026-03-29 10:17:49.724 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod_core:menu_mods
+2026-03-29 10:17:49.731 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod_core:title_update
+2026-03-29 10:17:49.732 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod_core:fmv_skip
+2026-03-29 10:17:49.790 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 3
+2026-03-29 10:17:49.791 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod:general_open_inventory
+2026-03-29 10:17:49.791 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod:bttl_additions
+2026-03-29 10:17:49.791 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod_core:menu_sort
+2026-03-29 10:17:49.791 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod_core:menu_mods
+2026-03-29 10:17:49.792 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod_core:title_update
+2026-03-29 10:17:49.792 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod_core:fmv_skip
+2026-03-29 10:17:54.589 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 1
+2026-03-29 10:17:54.589 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 1 -> InputAction lod:general_run
+2026-03-29 10:17:54.590 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 1 -> InputAction lod:bttl_counter
+2026-03-29 10:17:54.590 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 1 -> InputAction lod_core:menu_back
+2026-03-29 10:17:54.723 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 1
+2026-03-29 10:17:54.723 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 1 -> InputAction lod:general_run
+2026-03-29 10:17:54.723 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 1 -> InputAction lod:bttl_counter
+2026-03-29 10:17:54.723 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 1 -> InputAction lod_core:menu_back
+2026-03-29 10:17:55.289 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 0
+2026-03-29 10:17:55.289 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:17:55.290 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:17:55.290 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:17:55.290 [Hardware legend.core.GameEngine:291] INFO : Booting mods...
+2026-03-29 10:17:55.291 [Hardware legend.core.GameEngine:299] INFO : Loading mods [spweapons, lod, SPWeapons, lod_core, turn_order]...
+2026-03-29 10:17:55.291 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: lod
+2026-03-29 10:17:55.291 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: turn_order
+2026-03-29 10:17:55.291 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: spweapons
+2026-03-29 10:17:55.291 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: lod_core
+2026-03-29 10:17:55.295 [Hardware org.legendofdragoon.modloader.events.EventManager:42] INFO : Scanning for event consumers...
+2026-03-29 10:17:55.353 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:17:55.390 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 0
+2026-03-29 10:17:55.390 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:17:55.390 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:17:55.390 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:17:55.391 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:17:55.956 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 0
+2026-03-29 10:17:55.957 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:17:55.957 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:17:55.957 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:17:55.957 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:17:56.089 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 0
+2026-03-29 10:17:56.089 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:17:56.090 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:17:56.090 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:17:56.090 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:17:56.290 [Hardware legend.game.saves.ConfigStorage:48] INFO : Saving config CAMPAIGN to saves\dlv_50_dart\campaign_config.dcnf
+2026-03-29 10:17:57.056 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 0
+2026-03-29 10:17:57.056 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:17:57.056 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:17:57.057 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:17:57.057 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:17:57.155 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 0
+2026-03-29 10:17:57.156 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:17:57.156 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:17:57.157 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:17:57.157 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:17:57.523 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 0
+2026-03-29 10:17:57.523 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:17:57.523 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:17:57.523 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:17:57.523 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:17:57.622 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 0
+2026-03-29 10:17:57.623 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:17:57.623 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:17:57.623 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:17:57.623 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:17:57.973 [Hardware legend.core.GameEngine:336] INFO : Creating texture atlas...
+2026-03-29 10:17:57.973 [Hardware legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\4113
+2026-03-29 10:17:57.988 [Hardware legend.core.GameEngine:351] INFO : Texture atlas created in 0.01s
+2026-03-29 10:17:58.065 [Hardware legend.game.EngineStates:68] INFO : Transitioning to engine state EngineStateType lod:world_map
+2026-03-29 10:17:58.065 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: Atlas
+2026-03-29 10:17:58.066 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: Save card No. of Serdio 8
+2026-03-29 10:17:58.066 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: Save card No. of Serdio 8
+2026-03-29 10:17:58.066 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: Save card Ch.2 Platinum Shadow 1
+2026-03-29 10:17:58.066 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: Save card No. of Serdio 8
+2026-03-29 10:17:58.066 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: Save card Ch.2 Platinum Shadow 1
+2026-03-29 10:17:58.066 [Hardware legend.core.opengl.Obj:53] WARN : Leaked: Save card No. of Serdio 8
+2026-03-29 10:17:58.072 [Hardware legend.game.Graphics:156] INFO : Changing resolution to (320, 240) from legend.game.wmap.WMap.initWmap(WMap.java:718)
+2026-03-29 10:17:58.072 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5865 from legend.game.sound.Audio.loadWmapMusic(Audio.java:761)
+2026-03-29 10:17:58.072 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5865 (total queued: 1)
+2026-03-29 10:17:58.073 [pool-2-thread-10 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5865
+2026-03-29 10:17:58.074 [pool-2-thread-10 legend.game.sound.Audio:557] INFO : Music package 5865 loaded
+2026-03-29 10:17:58.075 [pool-2-thread-10 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5865 loaded (remaining queued: 0)
+2026-03-29 10:17:58.098 [Hardware legend.core.RenderEngine:1193] INFO : Resizing window to 960x720
+2026-03-29 10:17:58.140 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5695 from legend.game.wmap.WMap.loadWmapTextures(WMap.java:1965)
+2026-03-29 10:17:58.141 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5695 (total queued: 1)
+2026-03-29 10:17:58.141 [pool-2-thread-11 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5695
+2026-03-29 10:17:58.142 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5698 from legend.game.wmap.WMap.loadMapModelAndTexture(WMap.java:2167)
+2026-03-29 10:17:58.142 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5698 (total queued: 2)
+2026-03-29 10:17:58.143 [Hardware legend.game.DrgnFiles:75] INFO : Loading DRGN0 5706 from legend.game.DrgnFiles.loadDrgnFile(DrgnFiles.java:62)
+2026-03-29 10:17:58.143 [Hardware legend.game.unpacker.Loader:68] INFO : Queueing file SECT/DRGN0.BIN/5706 (total queued: 3)
+2026-03-29 10:17:58.143 [pool-2-thread-12 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5698
+2026-03-29 10:17:58.143 [pool-2-thread-13 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5706
+2026-03-29 10:17:58.144 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5713 from legend.game.wmap.WMap.loadPlayerAvatarTextureAndModelFiles(WMap.java:3039)
+2026-03-29 10:17:58.144 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5713 (total queued: 4)
+2026-03-29 10:17:58.144 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5715 from legend.game.wmap.WMap.loadPlayerAvatarTextureAndModelFiles(WMap.java:3064)
+2026-03-29 10:17:58.144 [pool-2-thread-14 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5713
+2026-03-29 10:17:58.144 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5715 (total queued: 5)
+2026-03-29 10:17:58.144 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5716 from legend.game.wmap.WMap.loadPlayerAvatarTextureAndModelFiles(WMap.java:3064)
+2026-03-29 10:17:58.144 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5716 (total queued: 6)
+2026-03-29 10:17:58.144 [pool-2-thread-11 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5695 loaded (remaining queued: 5)
+2026-03-29 10:17:58.144 [pool-2-thread-15 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5715
+2026-03-29 10:17:58.144 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5717 from legend.game.wmap.WMap.loadPlayerAvatarTextureAndModelFiles(WMap.java:3064)
+2026-03-29 10:17:58.144 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5717 (total queued: 6)
+2026-03-29 10:17:58.144 [pool-2-thread-16 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5716
+2026-03-29 10:17:58.145 [pool-2-thread-1 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5717
+2026-03-29 10:17:58.145 [Hardware legend.game.unpacker.Loader:78] INFO : Queueing files [SECT/DRGN22.BIN/836/99, SECT/DRGN22.BIN/836/textures/3, SECT/DRGN22.BIN/836/100, SECT/DRGN22.BIN/836/101, SECT/DRGN22.BIN/836/102] (total queued: 11)
+2026-03-29 10:17:58.146 [pool-2-thread-2 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN22.BIN\836\99
+2026-03-29 10:17:58.146 [pool-2-thread-13 legend.game.unpacker.Loader:72] INFO : File SECT/DRGN0.BIN/5706 loaded (remaining queued: 10)
+2026-03-29 10:17:58.146 [pool-2-thread-14 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5713 loaded (remaining queued: 9)
+2026-03-29 10:17:58.146 [pool-2-thread-2 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN22.BIN\836\textures\3
+2026-03-29 10:17:58.146 [pool-2-thread-2 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN22.BIN\836\100
+2026-03-29 10:17:58.146 [pool-2-thread-2 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN22.BIN\836\101
+2026-03-29 10:17:58.147 [pool-2-thread-15 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5715 loaded (remaining queued: 8)
+2026-03-29 10:17:58.147 [pool-2-thread-2 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN22.BIN\836\102
+2026-03-29 10:17:58.147 [pool-2-thread-16 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5716 loaded (remaining queued: 7)
+2026-03-29 10:17:58.147 [pool-2-thread-1 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5717 loaded (remaining queued: 6)
+2026-03-29 10:17:58.147 [Hardware legend.game.DrgnFiles:75] INFO : Loading DRGN0 5696 from legend.game.DrgnFiles.loadDrgnFile(DrgnFiles.java:62)
+2026-03-29 10:17:58.147 [Hardware legend.game.unpacker.Loader:68] INFO : Queueing file SECT/DRGN0.BIN/5696 (total queued: 7)
+2026-03-29 10:17:58.147 [pool-2-thread-3 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5696
+2026-03-29 10:17:58.148 [pool-2-thread-3 legend.game.unpacker.Loader:72] INFO : File SECT/DRGN0.BIN/5696 loaded (remaining queued: 6)
+2026-03-29 10:17:58.148 [pool-2-thread-2 legend.game.unpacker.Loader:89] INFO : Files [SECT/DRGN22.BIN/836/99, SECT/DRGN22.BIN/836/textures/3, SECT/DRGN22.BIN/836/100, SECT/DRGN22.BIN/836/101, SECT/DRGN22.BIN/836/102] loaded (remaining queued: 1)
+2026-03-29 10:17:58.152 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5741 from legend.game.wmap.WMap.loadWorldMapLocationMenuSoundEffects(WMap.java:554)
+2026-03-29 10:17:58.152 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5741 (total queued: 2)
+2026-03-29 10:17:58.152 [pool-2-thread-4 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5741
+2026-03-29 10:17:58.154 [pool-2-thread-4 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5741 loaded (remaining queued: 1)
+2026-03-29 10:17:58.158 [pool-2-thread-12 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5698 loaded (remaining queued: 0)
+2026-03-29 10:17:58.682 [Hardware legend.game.Models:69] INFO : Loading scripted TMD legend.game.types.CContainer@2447940d (animation legend.game.types.TmdAnimationFile@60ee7a51)
+2026-03-29 10:17:58.682 [Hardware legend.game.Models:69] INFO : Loading scripted TMD legend.game.types.CContainer@70e1aa20 (animation legend.game.types.TmdAnimationFile@e67d3b7)
+2026-03-29 10:17:58.683 [Hardware legend.game.Models:69] INFO : Loading scripted TMD legend.game.types.CContainer@1618c98a (animation legend.game.types.TmdAnimationFile@5b715ea)
+2026-03-29 10:17:58.683 [Hardware legend.game.Models:69] INFO : Loading scripted TMD legend.game.types.CContainer@787a0fd6 (animation legend.game.types.TmdAnimationFile@48b09105)
+2026-03-29 10:17:59.848 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 3
+2026-03-29 10:17:59.848 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod_core:menu_sort
+2026-03-29 10:17:59.848 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod_core:title_update
+2026-03-29 10:17:59.848 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod_core:menu_mods
+2026-03-29 10:17:59.848 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod_core:fmv_skip
+2026-03-29 10:17:59.848 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod:bttl_additions
+2026-03-29 10:17:59.848 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 3 -> InputAction lod:general_open_inventory
+2026-03-29 10:18:00.081 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 3
+2026-03-29 10:18:00.081 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod_core:menu_sort
+2026-03-29 10:18:00.081 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod_core:title_update
+2026-03-29 10:18:00.082 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod_core:menu_mods
+2026-03-29 10:18:00.082 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod_core:fmv_skip
+2026-03-29 10:18:00.082 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod:bttl_additions
+2026-03-29 10:18:00.082 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 3 -> InputAction lod:general_open_inventory
+2026-03-29 10:18:00.565 [Hardware legend.game.Graphics:156] INFO : Changing resolution to (384, 240) from legend.game.Menus.initMenu(Menus.java:70)
+2026-03-29 10:18:00.600 [Hardware legend.core.RenderEngine:1193] INFO : Resizing window to 960x720
+2026-03-29 10:18:01.081 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 12
+2026-03-29 10:18:01.081 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:01.082 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:01.148 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 12
+2026-03-29 10:18:01.148 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:01.148 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:01.248 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 0
+2026-03-29 10:18:01.248 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:18:01.248 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:18:01.251 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:18:01.251 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:18:01.348 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 0
+2026-03-29 10:18:01.348 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:18:01.348 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:18:01.348 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:18:01.348 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:18:02.398 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 14
+2026-03-29 10:18:02.398 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 14 -> InputAction lod_core:menu_right
+2026-03-29 10:18:02.398 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 14 -> InputAction lod:general_move_right
+2026-03-29 10:18:02.497 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 14
+2026-03-29 10:18:02.498 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 14 -> InputAction lod_core:menu_right
+2026-03-29 10:18:02.498 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 14 -> InputAction lod:general_move_right
+2026-03-29 10:18:03.164 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 12
+2026-03-29 10:18:03.164 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:03.164 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:03.281 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 12
+2026-03-29 10:18:03.281 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:03.281 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:03.514 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 12
+2026-03-29 10:18:03.514 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:03.514 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:03.648 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 12
+2026-03-29 10:18:03.648 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:03.649 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:03.731 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 12
+2026-03-29 10:18:03.731 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:03.731 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:03.847 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 12
+2026-03-29 10:18:03.848 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:03.848 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:03.931 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 12
+2026-03-29 10:18:03.931 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:03.931 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:04.048 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 12
+2026-03-29 10:18:04.048 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod:general_move_down
+2026-03-29 10:18:04.048 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 12 -> InputAction lod_core:menu_down
+2026-03-29 10:18:05.047 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 11
+2026-03-29 10:18:05.048 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:05.048 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:05.164 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 11
+2026-03-29 10:18:05.164 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:05.164 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:05.247 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 11
+2026-03-29 10:18:05.248 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:05.248 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:05.331 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 11
+2026-03-29 10:18:05.331 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:05.331 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:05.447 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 11
+2026-03-29 10:18:05.447 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:05.447 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:05.514 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 11
+2026-03-29 10:18:05.514 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:05.514 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:05.597 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 11
+2026-03-29 10:18:05.598 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:05.598 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:05.698 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 11
+2026-03-29 10:18:05.698 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:05.698 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:07.614 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 1
+2026-03-29 10:18:07.614 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 1 -> InputAction lod_core:menu_back
+2026-03-29 10:18:07.615 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 1 -> InputAction lod:bttl_counter
+2026-03-29 10:18:07.615 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 1 -> InputAction lod:general_run
+2026-03-29 10:18:07.781 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 1
+2026-03-29 10:18:07.781 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 1 -> InputAction lod_core:menu_back
+2026-03-29 10:18:07.781 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 1 -> InputAction lod:bttl_counter
+2026-03-29 10:18:07.781 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 1 -> InputAction lod:general_run
+2026-03-29 10:18:08.648 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 11
+2026-03-29 10:18:08.648 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:08.648 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:08.731 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 11
+2026-03-29 10:18:08.731 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:08.731 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:08.864 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 11
+2026-03-29 10:18:08.864 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:08.864 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:08.964 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 11
+2026-03-29 10:18:08.964 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod_core:menu_up
+2026-03-29 10:18:08.964 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 11 -> InputAction lod:general_move_up
+2026-03-29 10:18:09.264 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 13
+2026-03-29 10:18:09.264 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 13 -> InputAction lod:general_move_left
+2026-03-29 10:18:09.264 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 13 -> InputAction lod_core:menu_left
+2026-03-29 10:18:09.364 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 13
+2026-03-29 10:18:09.364 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 13 -> InputAction lod:general_move_left
+2026-03-29 10:18:09.364 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 13 -> InputAction lod_core:menu_left
+2026-03-29 10:18:09.447 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 0
+2026-03-29 10:18:09.448 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:18:09.448 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:18:09.448 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:18:09.448 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:18:09.597 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 0
+2026-03-29 10:18:09.597 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:18:09.598 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:18:09.598 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:18:09.598 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:18:09.897 [Hardware legend.core.platform.SdlPlatformManager:583] INFO : Button down gamepad 3 button 0
+2026-03-29 10:18:09.898 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:18:09.898 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:18:09.898 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:18:09.898 [Hardware legend.core.platform.SdlPlatformManager:596] INFO : Triggering press input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:18:10.048 [Hardware legend.core.platform.SdlPlatformManager:612] INFO : Button up gamepad 3 button 0
+2026-03-29 10:18:10.048 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:bttl_attack
+2026-03-29 10:18:10.048 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_confirm
+2026-03-29 10:18:10.049 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod_core:menu_textbox_confirm
+2026-03-29 10:18:10.049 [Hardware legend.core.platform.SdlPlatformManager:625] INFO : Triggering release input action button gamepad 3 button 0 -> InputAction lod:smap_interact
+2026-03-29 10:18:10.232 [Hardware legend.core.GameEngine:291] INFO : Booting mods...
+2026-03-29 10:18:10.233 [Hardware legend.core.GameEngine:299] INFO : Loading mods [lod, turn_order, spweapons, lod_core]...
+2026-03-29 10:18:10.233 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: lod
+2026-03-29 10:18:10.233 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: turn_order
+2026-03-29 10:18:10.233 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: spweapons
+2026-03-29 10:18:10.233 [Hardware org.legendofdragoon.modloader.ModManager:195] INFO : Loaded mod: lod_core
+2026-03-29 10:18:10.235 [Hardware org.legendofdragoon.modloader.events.EventManager:42] INFO : Scanning for event consumers...
+2026-03-29 10:18:10.295 [Hardware legend.game.EngineStates:68] INFO : Transitioning to engine state EngineStateType lod_core:title
+2026-03-29 10:18:10.296 [Hardware legend.core.spu.Spu:373] INFO : Setting SPU main volume to 3f80, 3f80
+2026-03-29 10:18:10.296 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5820 from legend.game.sound.Audio.loadMusicPackage(Audio.java:735)
+2026-03-29 10:18:10.296 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5820 (total queued: 1)
+2026-03-29 10:18:10.296 [pool-2-thread-5 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5820
+2026-03-29 10:18:10.297 [Hardware legend.game.DrgnFiles:97] INFO : Loading DRGN0 dir 5718 from legend.game.title.Ttle.initializeMainMenu(Ttle.java:281)
+2026-03-29 10:18:10.297 [Hardware legend.game.unpacker.Loader:112] INFO : Queueing directory SECT/DRGN0.BIN/5718 (total queued: 2)
+2026-03-29 10:18:10.297 [Hardware legend.game.DrgnFiles:75] INFO : Loading DRGN0 5719 from legend.game.DrgnFiles.loadDrgnFile(DrgnFiles.java:62)
+2026-03-29 10:18:10.297 [pool-2-thread-7 legend.game.unpacker.Loader:143] INFO : Loading directory .\files\SECT\DRGN0.BIN\5718
+2026-03-29 10:18:10.297 [Hardware legend.game.unpacker.Loader:68] INFO : Queueing file SECT/DRGN0.BIN/5719 (total queued: 3)
+2026-03-29 10:18:10.297 [pool-2-thread-6 legend.game.unpacker.Loader:41] INFO : Loading file .\files\SECT\DRGN0.BIN\5719
+2026-03-29 10:18:10.298 [pool-2-thread-5 legend.game.sound.Audio:557] INFO : Music package 5820 loaded
+2026-03-29 10:18:10.298 [pool-2-thread-6 legend.game.unpacker.Loader:72] INFO : File SECT/DRGN0.BIN/5719 loaded (remaining queued: 2)
+2026-03-29 10:18:10.299 [pool-2-thread-5 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5820 loaded (remaining queued: 1)
+2026-03-29 10:18:10.300 [pool-2-thread-7 legend.game.unpacker.Loader:116] INFO : Directory SECT/DRGN0.BIN/5718 loaded (remaining queued: 0)
+2026-03-29 10:18:11.497 [Hardware legend.core.RenderEngine:1174] INFO : Shutting down...

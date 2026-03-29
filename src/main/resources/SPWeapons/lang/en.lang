@@ -1,0 +1,45 @@
+# Global config
+spweapons.name=Spirit Point Weapons
+
+# Equipment
+spweapons.equipment.spirit_axe.name=Spirit Axe
+spweapons.equipment.spirit_axe.description=Weak but earns 4X SP.
+
+spweapons.equipment.spirit_blade.name=Spirit Blade
+spweapons.equipment.spirit_blade.description=Weak but earns 3X SP.
+
+spweapons.equipment.spirit_bow.name=Spirit Bow
+spweapons.equipment.spirit_bow.description=Weak but earns 3X SP.
+
+spweapons.equipment.spirit_caestus.name=Spirit Caestus
+spweapons.equipment.spirit_caestus.description=Weak but earns 4X SP.
+
+spweapons.equipment.spirit_estoc.name=Spirit Estoc
+spweapons.equipment.spirit_estoc.description=Weak but earns 4X SP.
+
+spweapons.equipment.spirit_mace.name=Spirit Mace
+spweapons.equipment.spirit_mace.description=Weak but earns 3X SP.
+
+spweapons.equipment.spirit_pike.name=Spirit Pike
+spweapons.equipment.spirit_pike.description= Weak but earns 4X SP.
+
+spweapons.equipment.blazing_soul.name=Blazing Soul
+spweapons.equipment.blazing_soul.description=Light your soul ablaze\nand claim victory!!
+
+spweapons.equipment.tornadic_soul.name=Tornadic Soul
+spweapons.equipment.tornadic_soul.description=Soar across the sky\non mighty winds!!
+
+spweapons.equipment.virtuous_soul.name= Virtuous Soul
+spweapons.equipment.virtuous_soul.description=Pierce the darkness\nand cleanse the\nworld!!
+
+spweapons.equipment.blackened_soul.name= Blackened Soul
+spweapons.equipment.blackened_soul.description=Become a Monster\nand drive the world\nto ruin!!
+
+spweapons.equipment.martial_soul.name=Martial Soul
+spweapons.equipment.martial_soul.description=On this day the\nWorld shall know my\nFist!!
+
+spweapons.equipment.dancers_soul.name=Dancers Soul
+spweapons.equipment.dancers_soul.description=Dance until you cannot\nphysically dance\nanymore!!
+
+spweapons.equipment.earthen_soul.name=Earthen Soul
+spweapons.equipment.earthen_soul.description=Become like Stone and\ndominate all who\noppose you!!
