@@ -1,3 +1,2 @@
-# Severed Chains Devkit
-
-A basic example mod to get you started. More to come later.
+# Spirit Point Weapons
+A pack of weak weapons designed to give large SP amounts
